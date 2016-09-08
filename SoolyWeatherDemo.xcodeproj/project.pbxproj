@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFE380CC1D81483200ABEDE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE380CB1D81483200ABEDE4 /* main.m */; };
+		EFE380CF1D81483200ABEDE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE380CE1D81483200ABEDE4 /* AppDelegate.m */; };
+		EFE380D21D81483200ABEDE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE380D11D81483200ABEDE4 /* ViewController.m */; };
+		EFE380D51D81483200ABEDE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE380D31D81483200ABEDE4 /* Main.storyboard */; };
+		EFE380D71D81483200ABEDE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE380D61D81483200ABEDE4 /* Assets.xcassets */; };
+		EFE380DA1D81483200ABEDE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE380D81D81483200ABEDE4 /* LaunchScreen.storyboard */; };
+		EFE380E51D81483200ABEDE4 /* SoolyWeatherDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE380E41D81483200ABEDE4 /* SoolyWeatherDemoTests.m */; };
+		EFE380F01D81483200ABEDE4 /* SoolyWeatherDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE380EF1D81483200ABEDE4 /* SoolyWeatherDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFE380E11D81483200ABEDE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE380BF1D81483200ABEDE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE380C61D81483200ABEDE4;
+			remoteInfo = SoolyWeatherDemo;
+		};
+		EFE380EC1D81483200ABEDE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE380BF1D81483200ABEDE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE380C61D81483200ABEDE4;
+			remoteInfo = SoolyWeatherDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFE380C71D81483200ABEDE4 /* SoolyWeatherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoolyWeatherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE380CB1D81483200ABEDE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFE380CD1D81483200ABEDE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFE380CE1D81483200ABEDE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFE380D01D81483200ABEDE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFE380D11D81483200ABEDE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFE380D41D81483200ABEDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFE380D61D81483200ABEDE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE380D91D81483200ABEDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFE380DB1D81483200ABEDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE380E01D81483200ABEDE4 /* SoolyWeatherDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoolyWeatherDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE380E41D81483200ABEDE4 /* SoolyWeatherDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoolyWeatherDemoTests.m; sourceTree = "<group>"; };
+		EFE380E61D81483200ABEDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE380EB1D81483200ABEDE4 /* SoolyWeatherDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoolyWeatherDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE380EF1D81483200ABEDE4 /* SoolyWeatherDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoolyWeatherDemoUITests.m; sourceTree = "<group>"; };
+		EFE380F11D81483200ABEDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFE380C41D81483200ABEDE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE380DD1D81483200ABEDE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE380E81D81483200ABEDE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFE380BE1D81483200ABEDE4 = {
+			isa = PBXGroup;
+			children = (
+				EFE380C91D81483200ABEDE4 /* SoolyWeatherDemo */,
+				EFE380E31D81483200ABEDE4 /* SoolyWeatherDemoTests */,
+				EFE380EE1D81483200ABEDE4 /* SoolyWeatherDemoUITests */,
+				EFE380C81D81483200ABEDE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFE380C81D81483200ABEDE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFE380C71D81483200ABEDE4 /* SoolyWeatherDemo.app */,
+				EFE380E01D81483200ABEDE4 /* SoolyWeatherDemoTests.xctest */,
+				EFE380EB1D81483200ABEDE4 /* SoolyWeatherDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE380C91D81483200ABEDE4 /* SoolyWeatherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EFE380CD1D81483200ABEDE4 /* AppDelegate.h */,
+				EFE380CE1D81483200ABEDE4 /* AppDelegate.m */,
+				EFE380D01D81483200ABEDE4 /* ViewController.h */,
+				EFE380D11D81483200ABEDE4 /* ViewController.m */,
+				EFE380D31D81483200ABEDE4 /* Main.storyboard */,
+				EFE380D61D81483200ABEDE4 /* Assets.xcassets */,
+				EFE380D81D81483200ABEDE4 /* LaunchScreen.storyboard */,
+				EFE380DB1D81483200ABEDE4 /* Info.plist */,
+				EFE380CA1D81483200ABEDE4 /* Supporting Files */,
+			);
+			path = SoolyWeatherDemo;
+			sourceTree = "<group>";
+		};
+		EFE380CA1D81483200ABEDE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFE380CB1D81483200ABEDE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFE380E31D81483200ABEDE4 /* SoolyWeatherDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE380E41D81483200ABEDE4 /* SoolyWeatherDemoTests.m */,
+				EFE380E61D81483200ABEDE4 /* Info.plist */,
+			);
+			path = SoolyWeatherDemoTests;
+			sourceTree = "<group>";
+		};
+		EFE380EE1D81483200ABEDE4 /* SoolyWeatherDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE380EF1D81483200ABEDE4 /* SoolyWeatherDemoUITests.m */,
+				EFE380F11D81483200ABEDE4 /* Info.plist */,
+			);
+			path = SoolyWeatherDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFE380C61D81483200ABEDE4 /* SoolyWeatherDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE380F41D81483200ABEDE4 /* Build configuration list for PBXNativeTarget "SoolyWeatherDemo" */;
+			buildPhases = (
+				EFE380C31D81483200ABEDE4 /* Sources */,
+				EFE380C41D81483200ABEDE4 /* Frameworks */,
+				EFE380C51D81483200ABEDE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoolyWeatherDemo;
+			productName = SoolyWeatherDemo;
+			productReference = EFE380C71D81483200ABEDE4 /* SoolyWeatherDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFE380DF1D81483200ABEDE4 /* SoolyWeatherDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE380F71D81483200ABEDE4 /* Build configuration list for PBXNativeTarget "SoolyWeatherDemoTests" */;
+			buildPhases = (
+				EFE380DC1D81483200ABEDE4 /* Sources */,
+				EFE380DD1D81483200ABEDE4 /* Frameworks */,
+				EFE380DE1D81483200ABEDE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE380E21D81483200ABEDE4 /* PBXTargetDependency */,
+			);
+			name = SoolyWeatherDemoTests;
+			productName = SoolyWeatherDemoTests;
+			productReference = EFE380E01D81483200ABEDE4 /* SoolyWeatherDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFE380EA1D81483200ABEDE4 /* SoolyWeatherDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE380FA1D81483200ABEDE4 /* Build configuration list for PBXNativeTarget "SoolyWeatherDemoUITests" */;
+			buildPhases = (
+				EFE380E71D81483200ABEDE4 /* Sources */,
+				EFE380E81D81483200ABEDE4 /* Frameworks */,
+				EFE380E91D81483200ABEDE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE380ED1D81483200ABEDE4 /* PBXTargetDependency */,
+			);
+			name = SoolyWeatherDemoUITests;
+			productName = SoolyWeatherDemoUITests;
+			productReference = EFE380EB1D81483200ABEDE4 /* SoolyWeatherDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFE380BF1D81483200ABEDE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SoolyChristina;
+				TargetAttributes = {
+					EFE380C61D81483200ABEDE4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EFE380DF1D81483200ABEDE4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EFE380C61D81483200ABEDE4;
+					};
+					EFE380EA1D81483200ABEDE4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EFE380C61D81483200ABEDE4;
+					};
+				};
+			};
+			buildConfigurationList = EFE380C21D81483200ABEDE4 /* Build configuration list for PBXProject "SoolyWeatherDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFE380BE1D81483200ABEDE4;
+			productRefGroup = EFE380C81D81483200ABEDE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFE380C61D81483200ABEDE4 /* SoolyWeatherDemo */,
+				EFE380DF1D81483200ABEDE4 /* SoolyWeatherDemoTests */,
+				EFE380EA1D81483200ABEDE4 /* SoolyWeatherDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFE380C51D81483200ABEDE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE380DA1D81483200ABEDE4 /* LaunchScreen.storyboard in Resources */,
+				EFE380D71D81483200ABEDE4 /* Assets.xcassets in Resources */,
+				EFE380D51D81483200ABEDE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE380DE1D81483200ABEDE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE380E91D81483200ABEDE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFE380C31D81483200ABEDE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE380D21D81483200ABEDE4 /* ViewController.m in Sources */,
+				EFE380CF1D81483200ABEDE4 /* AppDelegate.m in Sources */,
+				EFE380CC1D81483200ABEDE4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE380DC1D81483200ABEDE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE380E51D81483200ABEDE4 /* SoolyWeatherDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE380E71D81483200ABEDE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE380F01D81483200ABEDE4 /* SoolyWeatherDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFE380E21D81483200ABEDE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE380C61D81483200ABEDE4 /* SoolyWeatherDemo */;
+			targetProxy = EFE380E11D81483200ABEDE4 /* PBXContainerItemProxy */;
+		};
+		EFE380ED1D81483200ABEDE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE380C61D81483200ABEDE4 /* SoolyWeatherDemo */;
+			targetProxy = EFE380EC1D81483200ABEDE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFE380D31D81483200ABEDE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE380D41D81483200ABEDE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFE380D81D81483200ABEDE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE380D91D81483200ABEDE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFE380F21D81483200ABEDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFE380F31D81483200ABEDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFE380F51D81483200ABEDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoolyWeatherDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sooly.SoolyWeatherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFE380F61D81483200ABEDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoolyWeatherDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sooly.SoolyWeatherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFE380F81D81483200ABEDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoolyWeatherDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sooly.SoolyWeatherDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoolyWeatherDemo.app/SoolyWeatherDemo";
+			};
+			name = Debug;
+		};
+		EFE380F91D81483200ABEDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoolyWeatherDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sooly.SoolyWeatherDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoolyWeatherDemo.app/SoolyWeatherDemo";
+			};
+			name = Release;
+		};
+		EFE380FB1D81483200ABEDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoolyWeatherDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sooly.SoolyWeatherDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoolyWeatherDemo;
+			};
+			name = Debug;
+		};
+		EFE380FC1D81483200ABEDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoolyWeatherDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sooly.SoolyWeatherDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoolyWeatherDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFE380C21D81483200ABEDE4 /* Build configuration list for PBXProject "SoolyWeatherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE380F21D81483200ABEDE4 /* Debug */,
+				EFE380F31D81483200ABEDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE380F41D81483200ABEDE4 /* Build configuration list for PBXNativeTarget "SoolyWeatherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE380F51D81483200ABEDE4 /* Debug */,
+				EFE380F61D81483200ABEDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFE380F71D81483200ABEDE4 /* Build configuration list for PBXNativeTarget "SoolyWeatherDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE380F81D81483200ABEDE4 /* Debug */,
+				EFE380F91D81483200ABEDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFE380FA1D81483200ABEDE4 /* Build configuration list for PBXNativeTarget "SoolyWeatherDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE380FB1D81483200ABEDE4 /* Debug */,
+				EFE380FC1D81483200ABEDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFE380BF1D81483200ABEDE4 /* Project object */;
+}
