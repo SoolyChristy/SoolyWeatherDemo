@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D12ABDA6477A4740F0045A4F /* libPods-SoolyWeatherDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D31681D9028D76D31B15E5E6 /* libPods-SoolyWeatherDemo.a */; };
+		EF0CD7ED1D8A372A00AD4B68 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CD7EC1D8A372A00AD4B68 /* WeatherData.m */; };
+		EF0CD7F01D8A39E900AD4B68 /* TodayData.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CD7EF1D8A39E900AD4B68 /* TodayData.m */; };
+		EF26AA3C1D8D0F7200E0AB2C /* WeatherForecastView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF26AA3B1D8D0F7200E0AB2C /* WeatherForecastView.m */; };
+		EF26AA3F1D8D93C500E0AB2C /* TodayIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = EF26AA3E1D8D93C500E0AB2C /* TodayIndex.m */; };
+		EFAEBF9E1D87FFC800C00F6A /* GetCityWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAEBF9D1D87FFC800C00F6A /* GetCityWeather.m */; };
+		EFB40E8D1D9BC8F400700222 /* Forecast.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB40E8C1D9BC8F400700222 /* Forecast.m */; };
+		EFDA9CD71D867CBC00E3C29E /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFDA9CD61D867CBC00E3C29E /* citydict.plist */; };
+		EFDFA6461DBDF09000BC6ABF /* UIColor+Sooly.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA6451DBDF09000BC6ABF /* UIColor+Sooly.m */; };
+		EFDFA64D1DBDF85500BC6ABF /* UIColor+SoolyWeatherDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA64C1DBDF85500BC6ABF /* UIColor+SoolyWeatherDemo.m */; };
 		EFE380CC1D81483200ABEDE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE380CB1D81483200ABEDE4 /* main.m */; };
 		EFE380CF1D81483200ABEDE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE380CE1D81483200ABEDE4 /* AppDelegate.m */; };
-		EFE380D21D81483200ABEDE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE380D11D81483200ABEDE4 /* ViewController.m */; };
 		EFE380D51D81483200ABEDE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE380D31D81483200ABEDE4 /* Main.storyboard */; };
 		EFE380D71D81483200ABEDE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE380D61D81483200ABEDE4 /* Assets.xcassets */; };
 		EFE380DA1D81483200ABEDE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE380D81D81483200ABEDE4 /* LaunchScreen.storyboard */; };
 		EFE380E51D81483200ABEDE4 /* SoolyWeatherDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE380E41D81483200ABEDE4 /* SoolyWeatherDemoTests.m */; };
 		EFE380F01D81483200ABEDE4 /* SoolyWeatherDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE380EF1D81483200ABEDE4 /* SoolyWeatherDemoUITests.m */; };
+		EFE381021D81629200ABEDE4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE381011D81629200ABEDE4 /* RootViewController.m */; };
+		EFE381051D81649100ABEDE4 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE381041D81649100ABEDE4 /* SettingsTableViewController.m */; };
+		EFE381111D81798500ABEDE4 /* SoolyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE3810F1D81798500ABEDE4 /* SoolyTableViewCell.m */; };
+		EFE381121D81798500ABEDE4 /* SoolyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFE381101D81798500ABEDE4 /* SoolyTableViewCell.xib */; };
+		EFE3811F1D81867400ABEDE4 /* WeatherTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE3811E1D81867400ABEDE4 /* WeatherTableViewController.m */; };
+		EFE381231D81874000ABEDE4 /* WeatherTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE381211D81874000ABEDE4 /* WeatherTableViewCell.m */; };
+		EFE381241D81874000ABEDE4 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFE381221D81874000ABEDE4 /* WeatherTableViewCell.xib */; };
+		EFE381271D818D7100ABEDE4 /* CityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE381261D818D7000ABEDE4 /* CityTableViewController.m */; };
+		EFE3812D1D81AEB400ABEDE4 /* CityName.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE3812C1D81AEB400ABEDE4 /* CityName.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +53,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C0D0E9B88BFC8DF6A681721 /* Pods-SoolyWeatherDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoolyWeatherDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoolyWeatherDemo/Pods-SoolyWeatherDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D31681D9028D76D31B15E5E6 /* libPods-SoolyWeatherDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoolyWeatherDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE4FFC209908E28CA61844E /* Pods-SoolyWeatherDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoolyWeatherDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoolyWeatherDemo/Pods-SoolyWeatherDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EF0CD7EB1D8A372A00AD4B68 /* WeatherData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherData.h; sourceTree = "<group>"; };
+		EF0CD7EC1D8A372A00AD4B68 /* WeatherData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherData.m; sourceTree = "<group>"; };
+		EF0CD7EE1D8A39E900AD4B68 /* TodayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayData.h; sourceTree = "<group>"; };
+		EF0CD7EF1D8A39E900AD4B68 /* TodayData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayData.m; sourceTree = "<group>"; };
+		EF26AA3A1D8D0F7200E0AB2C /* WeatherForecastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherForecastView.h; sourceTree = "<group>"; };
+		EF26AA3B1D8D0F7200E0AB2C /* WeatherForecastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherForecastView.m; sourceTree = "<group>"; };
+		EF26AA3D1D8D93C500E0AB2C /* TodayIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayIndex.h; sourceTree = "<group>"; };
+		EF26AA3E1D8D93C500E0AB2C /* TodayIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayIndex.m; sourceTree = "<group>"; };
+		EFAEBF9C1D87FFC800C00F6A /* GetCityWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetCityWeather.h; sourceTree = "<group>"; };
+		EFAEBF9D1D87FFC800C00F6A /* GetCityWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetCityWeather.m; sourceTree = "<group>"; };
+		EFB40E8B1D9BC8F400700222 /* Forecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forecast.h; sourceTree = "<group>"; };
+		EFB40E8C1D9BC8F400700222 /* Forecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forecast.m; sourceTree = "<group>"; };
+		EFDA9CD61D867CBC00E3C29E /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
+		EFDFA6441DBDF09000BC6ABF /* UIColor+Sooly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Sooly.h"; sourceTree = "<group>"; };
+		EFDFA6451DBDF09000BC6ABF /* UIColor+Sooly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Sooly.m"; sourceTree = "<group>"; };
+		EFDFA64B1DBDF85500BC6ABF /* UIColor+SoolyWeatherDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SoolyWeatherDemo.h"; sourceTree = "<group>"; };
+		EFDFA64C1DBDF85500BC6ABF /* UIColor+SoolyWeatherDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SoolyWeatherDemo.m"; sourceTree = "<group>"; };
 		EFE380C71D81483200ABEDE4 /* SoolyWeatherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoolyWeatherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE380CB1D81483200ABEDE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFE380CD1D81483200ABEDE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFE380CE1D81483200ABEDE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EFE380D01D81483200ABEDE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EFE380D11D81483200ABEDE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EFE380D41D81483200ABEDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFE380D61D81483200ABEDE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFE380D91D81483200ABEDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +87,22 @@
 		EFE380EB1D81483200ABEDE4 /* SoolyWeatherDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoolyWeatherDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE380EF1D81483200ABEDE4 /* SoolyWeatherDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoolyWeatherDemoUITests.m; sourceTree = "<group>"; };
 		EFE380F11D81483200ABEDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE381001D81629200ABEDE4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		EFE381011D81629200ABEDE4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EFE381031D81649100ABEDE4 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		EFE381041D81649100ABEDE4 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		EFE3810E1D81798500ABEDE4 /* SoolyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoolyTableViewCell.h; sourceTree = "<group>"; };
+		EFE3810F1D81798500ABEDE4 /* SoolyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoolyTableViewCell.m; sourceTree = "<group>"; };
+		EFE381101D81798500ABEDE4 /* SoolyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoolyTableViewCell.xib; sourceTree = "<group>"; };
+		EFE3811D1D81867400ABEDE4 /* WeatherTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherTableViewController.h; sourceTree = "<group>"; };
+		EFE3811E1D81867400ABEDE4 /* WeatherTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherTableViewController.m; sourceTree = "<group>"; };
+		EFE381201D81874000ABEDE4 /* WeatherTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherTableViewCell.h; sourceTree = "<group>"; };
+		EFE381211D81874000ABEDE4 /* WeatherTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherTableViewCell.m; sourceTree = "<group>"; };
+		EFE381221D81874000ABEDE4 /* WeatherTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherTableViewCell.xib; sourceTree = "<group>"; };
+		EFE381251D818D7000ABEDE4 /* CityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewController.h; sourceTree = "<group>"; };
+		EFE381261D818D7000ABEDE4 /* CityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewController.m; sourceTree = "<group>"; };
+		EFE3812B1D81AEB400ABEDE4 /* CityName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityName.h; sourceTree = "<group>"; };
+		EFE3812C1D81AEB400ABEDE4 /* CityName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityName.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D12ABDA6477A4740F0045A4F /* libPods-SoolyWeatherDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +131,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D5D2DCA20E072B8E480DF58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C0D0E9B88BFC8DF6A681721 /* Pods-SoolyWeatherDemo.debug.xcconfig */,
+				EAE4FFC209908E28CA61844E /* Pods-SoolyWeatherDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9BFC42C006A6FE6ECB4E774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D31681D9028D76D31B15E5E6 /* libPods-SoolyWeatherDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF0CD7F11D8A39EE00AD4B68 /* WeatherModel */ = {
+			isa = PBXGroup;
+			children = (
+				EF0CD7EB1D8A372A00AD4B68 /* WeatherData.h */,
+				EF0CD7EC1D8A372A00AD4B68 /* WeatherData.m */,
+				EF0CD7EE1D8A39E900AD4B68 /* TodayData.h */,
+				EF0CD7EF1D8A39E900AD4B68 /* TodayData.m */,
+				EF26AA3D1D8D93C500E0AB2C /* TodayIndex.h */,
+				EF26AA3E1D8D93C500E0AB2C /* TodayIndex.m */,
+				EFB40E8B1D9BC8F400700222 /* Forecast.h */,
+				EFB40E8C1D9BC8F400700222 /* Forecast.m */,
+			);
+			name = WeatherModel;
+			sourceTree = "<group>";
+		};
+		EFDFA6431DBDF03300BC6ABF /* Expand(拓展) */ = {
+			isa = PBXGroup;
+			children = (
+				EFDFA6441DBDF09000BC6ABF /* UIColor+Sooly.h */,
+				EFDFA6451DBDF09000BC6ABF /* UIColor+Sooly.m */,
+				EFDFA64B1DBDF85500BC6ABF /* UIColor+SoolyWeatherDemo.h */,
+				EFDFA64C1DBDF85500BC6ABF /* UIColor+SoolyWeatherDemo.m */,
+			);
+			name = "Expand(拓展)";
+			sourceTree = "<group>";
+		};
 		EFE380BE1D81483200ABEDE4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +181,8 @@
 				EFE380E31D81483200ABEDE4 /* SoolyWeatherDemoTests */,
 				EFE380EE1D81483200ABEDE4 /* SoolyWeatherDemoUITests */,
 				EFE380C81D81483200ABEDE4 /* Products */,
+				9D5D2DCA20E072B8E480DF58 /* Pods */,
+				B9BFC42C006A6FE6ECB4E774 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +199,11 @@
 		EFE380C91D81483200ABEDE4 /* SoolyWeatherDemo */ = {
 			isa = PBXGroup;
 			children = (
-				EFE380CD1D81483200ABEDE4 /* AppDelegate.h */,
-				EFE380CE1D81483200ABEDE4 /* AppDelegate.m */,
-				EFE380D01D81483200ABEDE4 /* ViewController.h */,
-				EFE380D11D81483200ABEDE4 /* ViewController.m */,
-				EFE380D31D81483200ABEDE4 /* Main.storyboard */,
-				EFE380D61D81483200ABEDE4 /* Assets.xcassets */,
-				EFE380D81D81483200ABEDE4 /* LaunchScreen.storyboard */,
-				EFE380DB1D81483200ABEDE4 /* Info.plist */,
+				EFDFA6431DBDF03300BC6ABF /* Expand(拓展) */,
+				EFE3812A1D81AE9700ABEDE4 /* Model */,
+				EFE3810D1D81734400ABEDE4 /* Other */,
+				EFE3810C1D81732E00ABEDE4 /* Controller */,
+				EFE3810B1D81732700ABEDE4 /* View */,
 				EFE380CA1D81483200ABEDE4 /* Supporting Files */,
 			);
 			path = SoolyWeatherDemo;
@@ -117,6 +212,9 @@
 		EFE380CA1D81483200ABEDE4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EFDA9CD61D867CBC00E3C29E /* citydict.plist */,
+				EFE380D61D81483200ABEDE4 /* Assets.xcassets */,
+				EFE380DB1D81483200ABEDE4 /* Info.plist */,
 				EFE380CB1D81483200ABEDE4 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +238,59 @@
 			path = SoolyWeatherDemoUITests;
 			sourceTree = "<group>";
 		};
+		EFE3810B1D81732700ABEDE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFE380D31D81483200ABEDE4 /* Main.storyboard */,
+				EFE3810E1D81798500ABEDE4 /* SoolyTableViewCell.h */,
+				EFE3810F1D81798500ABEDE4 /* SoolyTableViewCell.m */,
+				EFE381101D81798500ABEDE4 /* SoolyTableViewCell.xib */,
+				EFE381201D81874000ABEDE4 /* WeatherTableViewCell.h */,
+				EFE381211D81874000ABEDE4 /* WeatherTableViewCell.m */,
+				EFE381221D81874000ABEDE4 /* WeatherTableViewCell.xib */,
+				EFE380D81D81483200ABEDE4 /* LaunchScreen.storyboard */,
+				EF26AA3A1D8D0F7200E0AB2C /* WeatherForecastView.h */,
+				EF26AA3B1D8D0F7200E0AB2C /* WeatherForecastView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EFE3810C1D81732E00ABEDE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EFE381001D81629200ABEDE4 /* RootViewController.h */,
+				EFE381011D81629200ABEDE4 /* RootViewController.m */,
+				EFE381031D81649100ABEDE4 /* SettingsTableViewController.h */,
+				EFE381041D81649100ABEDE4 /* SettingsTableViewController.m */,
+				EFE3811D1D81867400ABEDE4 /* WeatherTableViewController.h */,
+				EFE3811E1D81867400ABEDE4 /* WeatherTableViewController.m */,
+				EFE381251D818D7000ABEDE4 /* CityTableViewController.h */,
+				EFE381261D818D7000ABEDE4 /* CityTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EFE3810D1D81734400ABEDE4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EFE380CD1D81483200ABEDE4 /* AppDelegate.h */,
+				EFE380CE1D81483200ABEDE4 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		EFE3812A1D81AE9700ABEDE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3812B1D81AEB400ABEDE4 /* CityName.h */,
+				EFE3812C1D81AEB400ABEDE4 /* CityName.m */,
+				EFAEBF9C1D87FFC800C00F6A /* GetCityWeather.h */,
+				EFAEBF9D1D87FFC800C00F6A /* GetCityWeather.m */,
+				EF0CD7F11D8A39EE00AD4B68 /* WeatherModel */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +298,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFE380F41D81483200ABEDE4 /* Build configuration list for PBXNativeTarget "SoolyWeatherDemo" */;
 			buildPhases = (
+				F4D548C863CE9168717F9AEE /* [CP] Check Pods Manifest.lock */,
 				EFE380C31D81483200ABEDE4 /* Sources */,
 				EFE380C41D81483200ABEDE4 /* Frameworks */,
 				EFE380C51D81483200ABEDE4 /* Resources */,
+				110033F61CE3BCAEDE897BC6 /* [CP] Embed Pods Frameworks */,
+				52AACDEE597FFAD879DE2D2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +361,11 @@
 				TargetAttributes = {
 					EFE380C61D81483200ABEDE4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					EFE380DF1D81483200ABEDE4 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,7 +402,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE381121D81798500ABEDE4 /* SoolyTableViewCell.xib in Resources */,
+				EFDA9CD71D867CBC00E3C29E /* citydict.plist in Resources */,
 				EFE380DA1D81483200ABEDE4 /* LaunchScreen.storyboard in Resources */,
+				EFE381241D81874000ABEDE4 /* WeatherTableViewCell.xib in Resources */,
 				EFE380D71D81483200ABEDE4 /* Assets.xcassets in Resources */,
 				EFE380D51D81483200ABEDE4 /* Main.storyboard in Resources */,
 			);
@@ -265,14 +427,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		110033F61CE3BCAEDE897BC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoolyWeatherDemo/Pods-SoolyWeatherDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52AACDEE597FFAD879DE2D2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoolyWeatherDemo/Pods-SoolyWeatherDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D548C863CE9168717F9AEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EFE380C31D81483200ABEDE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFE380D21D81483200ABEDE4 /* ViewController.m in Sources */,
+				EFE3812D1D81AEB400ABEDE4 /* CityName.m in Sources */,
+				EF0CD7F01D8A39E900AD4B68 /* TodayData.m in Sources */,
+				EF26AA3C1D8D0F7200E0AB2C /* WeatherForecastView.m in Sources */,
+				EFE381051D81649100ABEDE4 /* SettingsTableViewController.m in Sources */,
+				EFE381231D81874000ABEDE4 /* WeatherTableViewCell.m in Sources */,
+				EF0CD7ED1D8A372A00AD4B68 /* WeatherData.m in Sources */,
 				EFE380CF1D81483200ABEDE4 /* AppDelegate.m in Sources */,
+				EFAEBF9E1D87FFC800C00F6A /* GetCityWeather.m in Sources */,
+				EFDFA6461DBDF09000BC6ABF /* UIColor+Sooly.m in Sources */,
+				EFE3811F1D81867400ABEDE4 /* WeatherTableViewController.m in Sources */,
+				EFE381271D818D7100ABEDE4 /* CityTableViewController.m in Sources */,
 				EFE380CC1D81483200ABEDE4 /* main.m in Sources */,
+				EFE381111D81798500ABEDE4 /* SoolyTableViewCell.m in Sources */,
+				EFB40E8D1D9BC8F400700222 /* Forecast.m in Sources */,
+				EFE381021D81629200ABEDE4 /* RootViewController.m in Sources */,
+				EFDFA64D1DBDF85500BC6ABF /* UIColor+SoolyWeatherDemo.m in Sources */,
+				EF26AA3F1D8D93C500E0AB2C /* TodayIndex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,23 +637,27 @@
 		};
 		EFE380F51D81483200ABEDE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C0D0E9B88BFC8DF6A681721 /* Pods-SoolyWeatherDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SoolyWeatherDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sooly.SoolyWeatherDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		EFE380F61D81483200ABEDE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE4FFC209908E28CA61844E /* Pods-SoolyWeatherDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SoolyWeatherDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sooly.SoolyWeatherDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
@@ -498,6 +726,7 @@
 				EFE380F61D81483200ABEDE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFE380F71D81483200ABEDE4 /* Build configuration list for PBXNativeTarget "SoolyWeatherDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +735,7 @@
 				EFE380F91D81483200ABEDE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFE380FA1D81483200ABEDE4 /* Build configuration list for PBXNativeTarget "SoolyWeatherDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +744,7 @@
 				EFE380FC1D81483200ABEDE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

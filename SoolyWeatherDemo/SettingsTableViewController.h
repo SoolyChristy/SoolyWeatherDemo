@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SettingsTableViewController.h
 //  SoolyWeatherDemo
 //
 //  Created by SoolyChristina on 16/9/8.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SettingsTableViewController : UITableViewController
 
 @end
-

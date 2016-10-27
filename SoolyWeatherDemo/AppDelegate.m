@@ -15,8 +15,27 @@
 @implementation AppDelegate
 
 
+//获取本地数据路径
+-(NSString *)getDataPath{
+    NSString *path = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)lastObject];
+    NSString *fileName = [path stringByAppendingPathComponent:@"userCities.data"];
+    NSLog(@"%@",fileName);
+    return fileName;
+}
+
+-(NSMutableArray *)userCities{
+    if (!_userCities) {
+        _userCities = [NSMutableArray array];
+    }
+    return _userCities;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[UINavigationBar appearance]  setBackgroundImage:[[UIImage alloc] init] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
+    //解档
+    _userCities = [NSKeyedUnarchiver unarchiveObjectWithFile:[self getDataPath]];
     return YES;
 }
 
@@ -26,8 +45,8 @@
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    //归档
+    [NSKeyedArchiver archiveRootObject:_userCities toFile:[self getDataPath]];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
@@ -39,6 +58,7 @@
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
+    [NSKeyedArchiver archiveRootObject:_userCities toFile:[self getDataPath]];
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
