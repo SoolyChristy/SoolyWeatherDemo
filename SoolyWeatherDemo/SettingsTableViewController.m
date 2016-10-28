@@ -22,7 +22,7 @@
     [super viewDidLoad];
     UIBarButtonItem *backBtn = [[UIBarButtonItem alloc]initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:self action:nil];
     self.navigationItem.backBarButtonItem = backBtn;
-    self.tableView.backgroundColor = [UIColor colorWithRed:0.95 green:0.91 blue:0.80 alpha:1.00];
+    self.tableView.backgroundColor = [UIColor appBgColor];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
 }
@@ -44,7 +44,7 @@
     SoolyTableViewCell *cell = [[SoolyTableViewCell alloc]initWithXib];
     //2.子控件赋值
     cell.tittleLabel.text = @"城市管理";
-    cell.backgroundColor = [UIColor colorWithRed:0.95 green:0.91 blue:0.80 alpha:1.00];
+    cell.backgroundColor = [UIColor appBgColor];
 //      //选中不变色
 //    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     //3.给cell添加点击响应

@@ -16,5 +16,5 @@
 
 @property (nonatomic,strong) NSArray *forecastArr;
 
--(instancetype)initWithFrame:(CGRect)frame andTextColor:(UIColor *)textColor;
+-(instancetype)initWithFrame:(CGRect)frame;
 @end

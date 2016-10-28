@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70AB21E51DC2F89D008E11BB /* UIColor+SoolyWeatherDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AB21E41DC2F89D008E11BB /* UIColor+SoolyWeatherDemo.m */; };
 		D12ABDA6477A4740F0045A4F /* libPods-SoolyWeatherDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D31681D9028D76D31B15E5E6 /* libPods-SoolyWeatherDemo.a */; };
 		EF0CD7ED1D8A372A00AD4B68 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CD7EC1D8A372A00AD4B68 /* WeatherData.m */; };
 		EF0CD7F01D8A39E900AD4B68 /* TodayData.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CD7EF1D8A39E900AD4B68 /* TodayData.m */; };
@@ -15,8 +16,6 @@
 		EFAEBF9E1D87FFC800C00F6A /* GetCityWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAEBF9D1D87FFC800C00F6A /* GetCityWeather.m */; };
 		EFB40E8D1D9BC8F400700222 /* Forecast.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB40E8C1D9BC8F400700222 /* Forecast.m */; };
 		EFDA9CD71D867CBC00E3C29E /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFDA9CD61D867CBC00E3C29E /* citydict.plist */; };
-		EFDFA6461DBDF09000BC6ABF /* UIColor+Sooly.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA6451DBDF09000BC6ABF /* UIColor+Sooly.m */; };
-		EFDFA64D1DBDF85500BC6ABF /* UIColor+SoolyWeatherDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA64C1DBDF85500BC6ABF /* UIColor+SoolyWeatherDemo.m */; };
 		EFE380CC1D81483200ABEDE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE380CB1D81483200ABEDE4 /* main.m */; };
 		EFE380CF1D81483200ABEDE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE380CE1D81483200ABEDE4 /* AppDelegate.m */; };
 		EFE380D51D81483200ABEDE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE380D31D81483200ABEDE4 /* Main.storyboard */; };
@@ -54,6 +53,9 @@
 
 /* Begin PBXFileReference section */
 		6C0D0E9B88BFC8DF6A681721 /* Pods-SoolyWeatherDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoolyWeatherDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoolyWeatherDemo/Pods-SoolyWeatherDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		70AB21E31DC2F89D008E11BB /* UIColor+SoolyWeatherDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SoolyWeatherDemo.h"; sourceTree = "<group>"; };
+		70AB21E41DC2F89D008E11BB /* UIColor+SoolyWeatherDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SoolyWeatherDemo.m"; sourceTree = "<group>"; };
+		70AB21E61DC2F8BA008E11BB /* pch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pch.h; sourceTree = "<group>"; };
 		D31681D9028D76D31B15E5E6 /* libPods-SoolyWeatherDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoolyWeatherDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE4FFC209908E28CA61844E /* Pods-SoolyWeatherDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoolyWeatherDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoolyWeatherDemo/Pods-SoolyWeatherDemo.release.xcconfig"; sourceTree = "<group>"; };
 		EF0CD7EB1D8A372A00AD4B68 /* WeatherData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherData.h; sourceTree = "<group>"; };
@@ -69,10 +71,6 @@
 		EFB40E8B1D9BC8F400700222 /* Forecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forecast.h; sourceTree = "<group>"; };
 		EFB40E8C1D9BC8F400700222 /* Forecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forecast.m; sourceTree = "<group>"; };
 		EFDA9CD61D867CBC00E3C29E /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
-		EFDFA6441DBDF09000BC6ABF /* UIColor+Sooly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Sooly.h"; sourceTree = "<group>"; };
-		EFDFA6451DBDF09000BC6ABF /* UIColor+Sooly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Sooly.m"; sourceTree = "<group>"; };
-		EFDFA64B1DBDF85500BC6ABF /* UIColor+SoolyWeatherDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SoolyWeatherDemo.h"; sourceTree = "<group>"; };
-		EFDFA64C1DBDF85500BC6ABF /* UIColor+SoolyWeatherDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SoolyWeatherDemo.m"; sourceTree = "<group>"; };
 		EFE380C71D81483200ABEDE4 /* SoolyWeatherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoolyWeatherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE380CB1D81483200ABEDE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFE380CD1D81483200ABEDE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -166,10 +164,8 @@
 		EFDFA6431DBDF03300BC6ABF /* Expand(拓展) */ = {
 			isa = PBXGroup;
 			children = (
-				EFDFA6441DBDF09000BC6ABF /* UIColor+Sooly.h */,
-				EFDFA6451DBDF09000BC6ABF /* UIColor+Sooly.m */,
-				EFDFA64B1DBDF85500BC6ABF /* UIColor+SoolyWeatherDemo.h */,
-				EFDFA64C1DBDF85500BC6ABF /* UIColor+SoolyWeatherDemo.m */,
+				70AB21E31DC2F89D008E11BB /* UIColor+SoolyWeatherDemo.h */,
+				70AB21E41DC2F89D008E11BB /* UIColor+SoolyWeatherDemo.m */,
 			);
 			name = "Expand(拓展)";
 			sourceTree = "<group>";
@@ -216,6 +212,7 @@
 				EFE380D61D81483200ABEDE4 /* Assets.xcassets */,
 				EFE380DB1D81483200ABEDE4 /* Info.plist */,
 				EFE380CB1D81483200ABEDE4 /* main.m */,
+				70AB21E61DC2F8BA008E11BB /* pch.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -361,6 +358,7 @@
 				TargetAttributes = {
 					EFE380C61D81483200ABEDE4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7523YW79F8;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -488,14 +486,13 @@
 				EF0CD7ED1D8A372A00AD4B68 /* WeatherData.m in Sources */,
 				EFE380CF1D81483200ABEDE4 /* AppDelegate.m in Sources */,
 				EFAEBF9E1D87FFC800C00F6A /* GetCityWeather.m in Sources */,
-				EFDFA6461DBDF09000BC6ABF /* UIColor+Sooly.m in Sources */,
+				70AB21E51DC2F89D008E11BB /* UIColor+SoolyWeatherDemo.m in Sources */,
 				EFE3811F1D81867400ABEDE4 /* WeatherTableViewController.m in Sources */,
 				EFE381271D818D7100ABEDE4 /* CityTableViewController.m in Sources */,
 				EFE380CC1D81483200ABEDE4 /* main.m in Sources */,
 				EFE381111D81798500ABEDE4 /* SoolyTableViewCell.m in Sources */,
 				EFB40E8D1D9BC8F400700222 /* Forecast.m in Sources */,
 				EFE381021D81629200ABEDE4 /* RootViewController.m in Sources */,
-				EFDFA64D1DBDF85500BC6ABF /* UIColor+SoolyWeatherDemo.m in Sources */,
 				EF26AA3F1D8D93C500E0AB2C /* TodayIndex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -640,6 +637,9 @@
 			baseConfigurationReference = 6C0D0E9B88BFC8DF6A681721 /* Pods-SoolyWeatherDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7523YW79F8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SoolyWeatherDemo/pch.h";
 				INFOPLIST_FILE = SoolyWeatherDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sooly.SoolyWeatherDemo;
@@ -653,6 +653,9 @@
 			baseConfigurationReference = EAE4FFC209908E28CA61844E /* Pods-SoolyWeatherDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7523YW79F8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SoolyWeatherDemo/pch.h";
 				INFOPLIST_FILE = SoolyWeatherDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sooly.SoolyWeatherDemo;

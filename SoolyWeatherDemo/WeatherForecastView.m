@@ -17,9 +17,9 @@
 
 @implementation WeatherForecastView
 
--(instancetype)initWithFrame:(CGRect)frame andTextColor:(UIColor *)textColor{
+-(instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
-    self.textColor = textColor;
+    self.textColor = [UIColor appGrayColor];
     [self setUI];
     return self;
 }
