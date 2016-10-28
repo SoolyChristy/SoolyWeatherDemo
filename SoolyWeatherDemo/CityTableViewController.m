@@ -25,11 +25,10 @@
     //获取城市信息
     [self getCitiesData];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    UIColor *warmColor = [UIColor colorWithRed:0.95 green:0.91 blue:0.80 alpha:1.00];
-    self.tableView.backgroundColor = warmColor;
+    self.tableView.backgroundColor = [UIColor appBgColor];
     //索引字体颜色
     self.tableView.sectionIndexColor = [UIColor colorWithRed:0.34 green:0.42 blue:0.42 alpha:1.00];
-    self.tableView.sectionIndexBackgroundColor = warmColor;
+    self.tableView.sectionIndexBackgroundColor = [UIColor appBgColor];
 }
 
 - (void)didReceiveMemoryWarning {

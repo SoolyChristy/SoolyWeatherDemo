@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //导航栏颜色
-    UIColor *barColor = [UIColor colorWithRed:0.95 green:0.91 blue:0.80 alpha:1.00];
+    UIColor *barColor = [UIColor appBgColor];
     UIColor *barTitleColor = [UIColor colorWithRed:0.34 green:0.42 blue:0.42 alpha:1.00];
     self.navigationController.navigationBar.barTintColor = barColor;
     self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:barTitleColor};
