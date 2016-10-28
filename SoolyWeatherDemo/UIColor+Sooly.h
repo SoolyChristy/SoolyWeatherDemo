@@ -1,5 +1,5 @@
 //
-//  UIColor+SoolyWeatherDemo.h
+//  UIColor+Sooly.h
 //  SoolyWeatherDemo
 //
 //  Created by SoolyChristina on 16/10/24.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface UIColor (SoolyWeatherDemo)
+@interface UIColor(SoolyWeatherDemo)
 /**
  *  太阳颜色
  */

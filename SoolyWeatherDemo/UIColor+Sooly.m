@@ -1,14 +1,14 @@
 //
-//  UIColor+SoolyWeatherDemo.m
+//  UIColor+Sooly.m
 //  SoolyWeatherDemo
 //
 //  Created by SoolyChristina on 16/10/24.
 //  Copyright © 2016年 SoolyChristina. All rights reserved.
 //
 
-#import "UIColor+SoolyWeatherDemo.h"
+#import "UIColor+Sooly.h"
 
-@implementation UIColor (SoolyWeatherDemo)
+@implementation UIColor(SoolyWeatherDemo)
 
 //太阳颜色
 +(UIColor *)sunColor{

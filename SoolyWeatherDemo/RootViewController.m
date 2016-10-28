@@ -27,6 +27,10 @@
 @property (weak, nonatomic) IBOutlet UIView *ScorllContentView;
 @property (weak, nonatomic) IBOutlet UIScrollView *ScrollView;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *contentViewWidth;
+@property (nonatomic,weak) UIColor *oneViewColor;
+@property (nonatomic,weak) UIColor *rainItemColor;
+@property (nonatomic,weak) UIColor *textColor;
+@property (nonatomic,weak) UIColor *sunColor;
 
 @property (nonatomic,strong) CLLocationManager *locationManage;
 
@@ -51,27 +55,34 @@
 }
 
 -(void)setUI{
-
+    UIColor *upColor = [UIColor colorWithRed:0.90 green:0.53 blue:0.3 alpha:1.00];
+    UIColor *itemColor = [UIColor colorWithRed:0.34 green:0.42 blue:0.42 alpha:1.00];
+    UIColor *downColor = [UIColor colorWithRed:0.95 green:0.91 blue:0.80 alpha:1.00];
+    UIColor *textColor = [UIColor colorWithRed:0.34 green:0.42 blue:0.42 alpha:1.00];
+    UIColor *cityColor = [UIColor colorWithRed:0.83 green:0.35 blue:0.31 alpha:1.00];
+    self.oneViewColor = textColor;
+    self.rainItemColor = downColor;
+    self.textColor = textColor;
     //设置导航栏背景颜色
-    [self.navigationController.navigationBar setBarTintColor:[UIColor appOrangeColor]];
+    [self.navigationController.navigationBar setBarTintColor:upColor];
     
-    self.navigationController.navigationBar.tintColor = [UIColor appGrayColor];
-    NSMutableDictionary * dict = [NSMutableDictionary dictionaryWithObject:[UIColor appBgColor] forKey:NSForegroundColorAttributeName];
-
+    self.navigationController.navigationBar.tintColor = itemColor;
+    NSMutableDictionary * dict = [NSMutableDictionary dictionaryWithObject:downColor forKey:NSForegroundColorAttributeName];
+//    [dict setObject:[UIFont fontWithName:@"System" size:0.0] forKey:NSFontAttributeName];
     self.navigationController.navigationBar.titleTextAttributes = dict;
     //设置顶部view颜色
-    [self.oneView setBackgroundColor:[UIColor appOrangeColor]];
-
+    [self.oneView setBackgroundColor:upColor];
+      //创建天气图标view
     //设置下部view颜色
-    [self.twoView setBackgroundColor:[UIColor appBgColor]];
+    [self.twoView setBackgroundColor:downColor];
     
-    self.tempLabel.textColor = [UIColor appBgColor];
-    self.tDetailLabel.textColor = [UIColor appBgColor];
+    self.tempLabel.textColor = downColor;
+    self.tDetailLabel.textColor = downColor;
     //设置label的颜色
-    self.cityLabel.textColor = [UIColor appGrayColor];
-    self.dataLabel.textColor = [UIColor appGrayColor];
-    self.airLabel.textColor = [UIColor appGrayColor];
-    self.cityLabel.textColor = [UIColor appRedColor];
+    self.cityLabel.textColor = textColor;
+    self.dataLabel.textColor = textColor;
+    self.airLabel.textColor = textColor;
+    self.cityLabel.textColor = cityColor;
 }
 
 //给子控件赋值
@@ -94,7 +105,7 @@
             CGFloat Y = 0;
             CGRect frames = CGRectMake(X, Y, W, H);
             //创建scrollView里的自定义view
-            WeatherForecastView *subview = [[WeatherForecastView alloc]initWithFrame:frames];
+            WeatherForecastView *subview = [[WeatherForecastView alloc]initWithFrame:frames andTextColor:self.textColor];
             //获取数据模型
             subview.forecastArr = [weatherData.forecast.forecastArrs objectAtIndex:i];
             [self.ScorllContentView addSubview:subview];
@@ -112,15 +123,15 @@
     NSLog(@"type - %@",type);
     if ([type isEqualToString:@"晴"]) {
         self.weatherPic.image = [UIImage imageNamed:@"sun1"];
-        self.oneView.backgroundColor = [UIColor appRedColor];
-        [self.navigationController.navigationBar setBarTintColor:[UIColor appRedColor]];
-        self.navigationController.navigationBar.tintColor = [UIColor appRedColor];
+//        self.oneView.backgroundColor = self.sunColor;
+//        [self.navigationController.navigationBar setBarTintColor:self.sunColor];
+//        self.navigationController.navigationBar.tintColor = self.sunColor;
     }else if ([type isEqualToString:@"多云"]){
         self.weatherPic.image = [UIImage imageNamed:@"cloud1"];
     }else if ([type rangeOfString:@"雨"].length > 0){
-        self.oneView.backgroundColor = [UIColor appGrayColor];
-        [self.navigationController.navigationBar setBarTintColor:[UIColor appGrayColor]];
-        self.navigationController.navigationBar.tintColor = [UIColor appBgColor];
+        self.oneView.backgroundColor = _oneViewColor;
+        [self.navigationController.navigationBar setBarTintColor:self.oneViewColor];
+        self.navigationController.navigationBar.tintColor = self.rainItemColor;
         if ([type isEqualToString:@"小雨"]) {
             self.weatherPic.image = [UIImage imageNamed:@"rain1"];
         }else{
@@ -128,11 +139,29 @@
         }
     }else if ([type rangeOfString:@"雪"].length > 0){
         self.weatherPic.image = [UIImage imageNamed:@"snow1"];
-        self.oneView.backgroundColor = [UIColor appGrayColor];
-        [self.navigationController.navigationBar setBarTintColor:[UIColor appGrayColor]];
-        self.navigationController.navigationBar.tintColor = [UIColor appBgColor];
+        self.oneView.backgroundColor = _oneViewColor;
+        [self.navigationController.navigationBar setBarTintColor:self.oneViewColor];
+        self.navigationController.navigationBar.tintColor = self.rainItemColor;
     }
 }
+
+#pragma mark - 数据的持久化
+////归档
+//-(void)saveWeatherData:(WeatherData *)weatherData{
+//    NSMutableData *data = [NSMutableData data];
+//    NSKeyedArchiver *archiver = [[NSKeyedArchiver alloc] initForWritingWithMutableData:data];
+//    [archiver encodeObject:weatherData forKey:@"weatherData"];
+//    [archiver finishEncoding];
+//    [data writeToFile:[self getDataPath] atomically:YES];
+//}
+//
+////解档
+//-(WeatherData *)loadWeatherData{
+//    NSData *data = [NSData dataWithContentsOfFile:[self getDataPath]];
+//    NSKeyedUnarchiver *unarchiver = [[NSKeyedUnarchiver alloc]initForReadingWithData:data];
+//    WeatherData *weatherData = [unarchiver decodeObjectForKey:@"weatherData"];
+//    return weatherData;
+//}
 
 #pragma mark - 获取本地数据路径
 
